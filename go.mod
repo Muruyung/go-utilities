@@ -1,4 +1,4 @@
-module github.com/Muruyung/go-utils
+module github.com/Muruyung/go-utilities
 
 go 1.21.1
 

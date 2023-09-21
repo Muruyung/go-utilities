@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Muruyung/go-utils/logger"
+	"github.com/Muruyung/go-utilities/logger"
 )
 
 // =================================================

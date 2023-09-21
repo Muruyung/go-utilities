@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Muruyung/go-utils/converter"
+	"github.com/Muruyung/go-utilities/converter"
 
 	"github.com/sirupsen/logrus"
 )
