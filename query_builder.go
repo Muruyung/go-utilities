@@ -3,7 +3,8 @@ package goutils
 import (
 	"errors"
 	"fmt"
-	"goutils/logger"
+
+	"github.com/Muruyung/go-utils/logger"
 )
 
 // =================================================
