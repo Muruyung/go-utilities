@@ -1,9 +1,9 @@
-package utils
+package goutils
 
 import (
 	"errors"
 	"fmt"
-	"go-utils/logger"
+	"goutils/logger"
 )
 
 // =================================================
