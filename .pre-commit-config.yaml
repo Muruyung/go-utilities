@@ -1,0 +1,33 @@
+fail_fast: true
+repos:
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v4.4.0
+  hooks:
+    - id: trailing-whitespace
+      stages: [pre-commit]
+    - id: end-of-file-fixer
+      stages: [pre-commit]
+    - id: check-yaml
+      stages: [pre-commit]
+    - id: detect-private-key
+      stages: [pre-commit]
+- repo: https://github.com/Muruyung/pre-commit-golang
+  rev: v0.1.2
+  hooks:
+    - id: go-sec
+      stages: [pre-commit]
+    - id: go-fmt
+      stages: [pre-commit]
+    - id: golangci-lint
+      stages: [pre-commit]
+    - id: go-mod-tidy
+      stages: [post-commit]
+    - id: go-build
+      stages: [pre-commit]
+- repo: local
+  hooks:
+    - id: success
+      name: ready to push
+      entry: echo "ok"
+      language: system
+      stages: [pre-commit]
