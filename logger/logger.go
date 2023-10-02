@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Muruyung/go-utilities/converter"
-
 	"github.com/sirupsen/logrus"
+
+	"github.com/Muruyung/go-utilities/converter"
 )
 
 const (

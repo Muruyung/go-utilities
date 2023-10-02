@@ -123,6 +123,7 @@ func (q *queryBuilder) GetKey() string {
 
 // GetQuery parse query
 func (q *queryBuilder) GetQuery(tablename string, aliases string) (query string, values []interface{}, err error) {
+	logger.InitLogger("local", "")
 	query = `SELECT`
 	if q.selection == nil {
 		query = fmt.Sprintf(`%s *`, query)
